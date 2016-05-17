@@ -12,6 +12,8 @@
 		9FC0CADC1CEB5C020004AA35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0CADA1CEB5C020004AA35 /* Main.storyboard */; };
 		9FC0CADE1CEB5C020004AA35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0CADD1CEB5C020004AA35 /* Assets.xcassets */; };
 		9FC0CAE11CEB5C020004AA35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FC0CADF1CEB5C020004AA35 /* LaunchScreen.storyboard */; };
+		9FC0CAE91CEB5CD30004AA35 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0CAE81CEB5CD30004AA35 /* TableViewCell.swift */; };
+		9FC0CAEB1CEB5CF80004AA35 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC0CAEA1CEB5CF80004AA35 /* CameraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9FC0CADD1CEB5C020004AA35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FC0CAE01CEB5C020004AA35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FC0CAE21CEB5C020004AA35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC0CAE81CEB5CD30004AA35 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		9FC0CAEA1CEB5CF80004AA35 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				9FC0CAD61CEB5C020004AA35 /* AppDelegate.swift */,
 				9FC0CAD81CEB5C020004AA35 /* ViewController.swift */,
+				9FC0CAE81CEB5CD30004AA35 /* TableViewCell.swift */,
+				9FC0CAEA1CEB5CF80004AA35 /* CameraViewController.swift */,
 				9FC0CADA1CEB5C020004AA35 /* Main.storyboard */,
 				9FC0CADD1CEB5C020004AA35 /* Assets.xcassets */,
 				9FC0CADF1CEB5C020004AA35 /* LaunchScreen.storyboard */,
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FC0CAE91CEB5CD30004AA35 /* TableViewCell.swift in Sources */,
+				9FC0CAEB1CEB5CF80004AA35 /* CameraViewController.swift in Sources */,
 				9FC0CAD91CEB5C020004AA35 /* ViewController.swift in Sources */,
 				9FC0CAD71CEB5C020004AA35 /* AppDelegate.swift in Sources */,
 			);
