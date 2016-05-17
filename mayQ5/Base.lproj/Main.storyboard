@@ -67,7 +67,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
                                 <state key="normal" title="+"/>
                                 <connections>
-                                    <segue destination="iEA-si-NbB" kind="show" id="UdC-Wp-tb1"/>
+                                    <segue destination="iEA-si-NbB" kind="show" identifier="toCamera" id="UdC-Wp-tb1"/>
                                 </connections>
                             </button>
                         </subviews>

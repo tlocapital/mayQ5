@@ -12,7 +12,7 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
 
     @IBOutlet weak var imageHere: UIImageView!
     @IBOutlet weak var textHere: UITextField!
-    @IBAction func retakeBut(sender: AnyObject) {        
+    @IBAction func retakeBut(sender: AnyObject) {
         let imagePicker = UIImagePickerController()
         imagePicker.sourceType = .Camera
         imagePicker.delegate = self
@@ -43,6 +43,18 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
+    
+//    override func viewDidDisappear(animated: Bool) {
+//        let firstViewController = self.presentingViewController as! ViewController
+//        firstViewController.currentTableCell += 1
+//        let oldCell = firstViewController.thisTableView.dequeueReusableCellWithIdentifier("cellThis") as! TableViewCell
+//        oldCell.cellImage.image = self.imageHere.image!
+//        oldCell.cellLabel.text = self.textHere.text!
+//    }
+    
+
     
 
     /*

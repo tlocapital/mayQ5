@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var thisTableView: UITableView!
+    var currentTableCell: Int = 1
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,18 +22,24 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return currentTableCell
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cellThis", forIndexPath: indexPath) as! TableViewCell
-
+//        let nextVC = self.presentingViewController as! CameraViewController
+//        if nextVC.imageHere.image != nil {
+//            cell.cellImage.image = nextVC.imageHere.image
+//        }
+//        if nextVC.textHere.text != nil {
+//            cell.cellLabel.text = nextVC.textHere.text
+//        }
         
         return cell
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "NoteDetailViewController" {
+        if segue.identifier == "toCamera" {
             
         }
     }
